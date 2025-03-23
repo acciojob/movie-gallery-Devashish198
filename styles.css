@@ -1,2 +1,33 @@
-
-/* Your CSS Code here. */
+*{
+	margin:0px;
+	padding:0px;
+	box-shadow:border-box;
+}
+.container-fluid{
+	margin:1px;
+	border:1px solid grey;
+	display:flex;
+	flex-direction:column;
+}
+.col-sm-1{
+	display:flex;
+}
+.col-sm-2{
+	display:flex;
+}
+.col-sm-3{
+	display:flex;
+}
+.col-sm-4{
+	display:flex;
+}
+.col-sm-*{
+	padding:1px;
+	margin:1px
+	
+}
+.image{
+	height:100px;
+	width:100px;
+	border:1px solid blue;
+}
